@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="id"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="nama"/>
+
+    <TextView
+        android:id="@+id/tgl"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="tanggal"/>
+
+    <TextView
+        android:id="@+id/tgl_p"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="tanggal"/>
+
+    <TextView
+        android:id="@+id/sts"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="3dp"
+        android:text="status"/>
+
+    <TextView
+        android:id="@+id/keter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="keterangan"
+        android:visibility="gone"/>
+
+</LinearLayout>
